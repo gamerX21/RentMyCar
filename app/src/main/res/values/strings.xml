@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Rent My Car</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="access_token">pk.eyJ1Ijoic3Jpbml2YXM1NjhnaiIsImEiOiJjazM0aGxlMWQxMWM1M3FxdTE5dWs0eXkxIn0.xkgTQTDdetiUscmbN8_Tqg</string>
+    <string name="nav_home">Rent</string>
+    <string name="nav_share">Share</string>
+    <string name="nav_logout">Log Out</string>
+    <string name="nav_home_agency">dashboard</string>
+    <string name="nav_home_booking">booking</string>
+    <string name="nav_profile">profile</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="user_location_permission_explanation">This app needs location permissions to show its functionality.</string>
+    <string name="user_location_permission_not_granted">You didn\'t grant location permissions.</string>
+</resources>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mapbox="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/dashboard"
+        android:icon="@drawable/dashboard"
+        android:title="@string/nav_home_agency"
+        mapbox:fontFamily="@font/source_code_pro_extralight"/>
+    <item
+        android:id="@+id/Booking"
+        android:icon="@drawable/booking"
+        android:title="@string/nav_home_booking"
+        mapbox:fontFamily="@font/source_code_pro_extralight"/>
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/user"
+        android:title="@string/nav_profile"
+        mapbox:fontFamily="@font/source_code_pro_extralight"/>
+    <item
+        android:id="@+id/logout"
+        android:icon="@drawable/logout"
+        android:title="@string/nav_logout"
+        mapbox:fontFamily="@font/source_code_pro_extralight"/>
+</menu>

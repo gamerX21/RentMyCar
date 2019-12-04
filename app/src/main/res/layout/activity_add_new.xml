@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:mapbox="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    tools:context="tn.krh.rentmycar.homeApp.Agency.AddNewActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="105dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="vertical">
+
+                <TextView
+                    mapbox:fontFamily="@font/source_code_pro_extralight"
+                    android:id="@+id/textView24"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center"
+                    android:text="Type:"
+                    android:textColor="#000"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <Spinner
+                    android:id="@+id/CarTypeAg"
+                    android:background="@drawable/input_shape"
+                    android:layout_width="295dp"
+                    android:layout_height="47dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="105dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textViedw254"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center"
+                    android:text="Model:"
+                    mapbox:fontFamily="@font/source_code_pro_extralight"
+                    android:textColor="#000"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <Spinner
+                    android:id="@+id/ModelAg"
+                    mapbox:fontFamily="@font/source_code_pro_extralight"
+                    android:background="@drawable/input_shape"
+                    android:layout_width="295dp"
+                    android:layout_height="47dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="105dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView254bv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center"
+                    android:text="Price Per Day:"
+                    mapbox:fontFamily="@font/source_code_pro_extralight"
+                    android:textColor="#000"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/CarPriceAg"
+                    android:layout_width="295dp"
+                    android:layout_height="47dp"
+                    android:layout_marginTop="-10dp"
+                    android:background="@drawable/input_shape"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:hint="set price"
+                    android:inputType="textPersonName"
+                    android:paddingLeft="-130dp"
+                    android:textColor="@color/colorSecondary"
+                    android:textColorHint="@color/colorPrimary"
+                    android:textSize="15dp"
+                    android:textStyle="normal"
+                    mapbox:fontFamily="@font/source_code_pro_extralight" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="105dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="vertical">
+
+                <TextView
+                    mapbox:fontFamily="@font/source_code_pro_extralight"
+                    android:id="@+id/textView254s"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center"
+                    android:text="Select the Switch Button:"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <Switch
+                    android:id="@+id/DispoAg"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:text="Availability"
+                    mapbox:fontFamily="@font/source_code_pro_extralight"
+                    android:textSize="20sp"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="vertical"
+            android:layout_marginTop="70dp">
+
+            <Button
+                android:id="@+id/AddCarAgBtn"
+                mapbox:fontFamily="@font/source_code_pro_extralight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Add"
+                android:background="@drawable/custom_main_button"
+                android:textColor="#fff"
+                android:layout_marginLeft="58dp"
+                android:layout_marginRight="58dp"
+                />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
